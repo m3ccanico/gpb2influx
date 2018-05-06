@@ -16,7 +16,9 @@ The following command creates `logical_port.pb2.py` and `telemetry_top_pb2.py`. 
 
 ```bash
 apt install protobuf-compiler
-protoc --proto_path=junos-telemetry-interface --python_out=. junos-telemetry-interface/telemetry_top.proto junos-telemetry-interface/logical_port.proto -I /usr/include
+protoc --proto_path=junos-telemetry-interface --python_out=. \
+ junos-telemetry-interface/telemetry_top.proto \
+ junos-telemetry-interface/logical_port.proto -I /usr/include
 ```
 
 ## Run
