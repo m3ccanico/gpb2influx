@@ -23,16 +23,18 @@ ANALYTICS_PORT = 50001
 
 localtz = pytz.timezone('Pacific/Auckland')
 
+
 def main():
-    #db = client.InfluxDBClient('localhost', INFLUX_DB_PORT, 'root', 'root', 'network')
+    # connect to DB
     influx = InfluxDBClient(INFLUX_DB_IP, INFLUX_DB_PORT, '', '', INFLUX_DB_NAME)
     server(influx)
-    
+
+
 def server(influx):
-    #sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    # create UDP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.bind(('0.0.0.0', ANALYTICS_PORT))
-
+    
     while True:
         data, addr = sock.recvfrom(32000)
         start_time = time.time()
@@ -129,4 +131,6 @@ def server(influx):
     
     conn.close()
 
-main()
+
+if __name__ == "__main__":
+    main()
