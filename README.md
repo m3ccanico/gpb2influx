@@ -21,5 +21,6 @@ protoc --proto_path=junos-telemetry-interface --python_out=. junos-telemetry-int
 
 ## Run
 
+```bash
 nohup gpb2influx.py &
 ```
