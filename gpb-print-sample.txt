@@ -1,0 +1,1319 @@
+system_id: "FN-TgCam-POP-PE01:172.31.80.13"
+component_id: 0
+sensor_name: "Sensor:/junos/system/linecard/interface/logical/usage/:/junos/system/linecard/interface/logical/usage/:PFE"
+sequence_number: 772
+timestamp: 1525470670834
+version_major: 1
+version_minor: 1
+enterprise {
+  [juniperNetworks] {
+    [jnprLogicalInterfaceExt] {
+      interface_info {
+        if_name: "ge-1/0/7.0"
+        init_time: 1522712461
+        snmp_if_index: 563
+        ingress_stats {
+          if_packets: 29255
+          if_octets: 14212355
+          if_ucast_packets: 29252
+          if_mcast_packets: 3
+        }
+        egress_stats {
+          if_packets: 23512
+          if_octets: 2207755
+          if_ucast_packets: 23512
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/8.1"
+        init_time: 1522712461
+        snmp_if_index: 546
+        ingress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 33161216
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 315288
+          bytes: 38465136
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 1662976
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/8.2"
+        init_time: 1522712461
+        snmp_if_index: 547
+        ingress_stats {
+          if_packets: 24774995
+          if_octets: 6416037978
+          if_ucast_packets: 24357404
+          if_mcast_packets: 417591
+        }
+        egress_stats {
+          if_packets: 11628670
+          if_octets: 3032336753
+          if_ucast_packets: 11628670
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 4951553
+          bytes: 3165602533
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 33161216
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 24487054
+          bytes: 5152461982
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 1662976
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/8.32767"
+        init_time: 1522712461
+        snmp_if_index: 548
+        ingress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 128000
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 8192
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/9.100"
+        init_time: 1522712461
+        snmp_if_index: 543
+        parent_ae_name: "ae0.100"
+        ingress_stats {
+          if_packets: 4
+          if_octets: 264
+          if_ucast_packets: 2
+          if_mcast_packets: 2
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/9.4068"
+        init_time: 1522712461
+        snmp_if_index: 557
+        parent_ae_name: "ae0.4068"
+        ingress_stats {
+          if_packets: 3506497
+          if_octets: 2907140772
+          if_ucast_packets: 3503424
+          if_mcast_packets: 3073
+        }
+        egress_stats {
+          if_packets: 4278920
+          if_octets: 3823082471
+          if_ucast_packets: 4278920
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/9.32767"
+        init_time: 1522712461
+        snmp_if_index: 542
+        parent_ae_name: "ae0.32767"
+        ingress_stats {
+          if_packets: 2740128
+          if_octets: 339775872
+          if_ucast_packets: 2740128
+          if_mcast_packets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/8.1"
+        init_time: 1522712461
+        snmp_if_index: 549
+        ingress_stats {
+          if_packets: 67254923
+          if_octets: 60049568361
+          if_ucast_packets: 66842833
+          if_mcast_packets: 412090
+        }
+        egress_stats {
+          if_packets: 35381079
+          if_octets: 6981516916
+          if_ucast_packets: 35381079
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 28352443
+          bytes: 8151721768
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 33161216
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 25173443
+          bytes: 5192870033
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 1662976
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/8.2"
+        init_time: 1522712461
+        snmp_if_index: 550
+        ingress_stats {
+          if_packets: 9280312
+          if_octets: 501371330
+          if_ucast_packets: 8824145
+          if_mcast_packets: 456167
+        }
+        egress_stats {
+          if_packets: 8634670
+          if_octets: 449002840
+          if_ucast_packets: 8634670
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 61909
+          bytes: 16207080
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 33161216
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 9354789
+          bytes: 934395181
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 1662976
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/8.32767"
+        init_time: 1522712461
+        snmp_if_index: 551
+        ingress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 128000
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 8192
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/9.100"
+        init_time: 1522712461
+        snmp_if_index: 561
+        parent_ae_name: "ae0.100"
+        ingress_stats {
+          if_packets: 16
+          if_octets: 1136
+          if_ucast_packets: 4
+          if_mcast_packets: 12
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/9.4068"
+        init_time: 1522712461
+        snmp_if_index: 544
+        parent_ae_name: "ae0.4068"
+        ingress_stats {
+          if_packets: 3404533
+          if_octets: 2898174720
+          if_ucast_packets: 3398663
+          if_mcast_packets: 5870
+        }
+        egress_stats {
+          if_packets: 4450872
+          if_octets: 4153692904
+          if_ucast_packets: 4450872
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/9.32767"
+        init_time: 1522712461
+        snmp_if_index: 545
+        parent_ae_name: "ae0.32767"
+        ingress_stats {
+          if_packets: 2740131
+          if_octets: 339776244
+          if_ucast_packets: 2740131
+          if_mcast_packets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/0.32767"
+        init_time: 1522888191
+        snmp_if_index: 512
+        ingress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 128000
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 8192
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/1/0.32767"
+        init_time: 1522888945
+        snmp_if_index: 513
+        ingress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        egress_stats {
+          if_packets: 0
+          if_octets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 128000
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 8192
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+      interface_info {
+        if_name: "ge-1/0/0.10"
+        init_time: 1523930217
+        snmp_if_index: 515
+        ingress_stats {
+          if_packets: 23528273
+          if_octets: 3252951422
+          if_ucast_packets: 23160059
+          if_mcast_packets: 368214
+        }
+        egress_stats {
+          if_packets: 40980546
+          if_octets: 52498485787
+          if_ucast_packets: 40980546
+          if_mcast_packets: 0
+        }
+        op_state {
+          operational_status: "up"
+        }
+        egress_queue_info {
+          queue_number: 0
+          packets: 40969917
+          bytes: 54383906146
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 12779520
+        }
+        egress_queue_info {
+          queue_number: 1
+          packets: 6890
+          bytes: 947224
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 2
+          packets: 5241
+          bytes: 639402
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 3
+          packets: 368521
+          bytes: 46472782
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 638976
+        }
+        egress_queue_info {
+          queue_number: 4
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 5
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 6
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+        egress_queue_info {
+          queue_number: 7
+          packets: 0
+          bytes: 0
+          tail_drop_packets: 0
+          rate_limit_drop_packets: 0
+          rate_limit_drop_bytes: 0
+          red_drop_packets: 0
+          red_drop_bytes: 0
+          average_buffer_occupancy: 0
+          current_buffer_occupancy: 0
+          peak_buffer_occupancy: 0
+          allocated_buffer_size: 32768
+        }
+      }
+    }
+  }
+}
