@@ -60,6 +60,7 @@ def server(influx):
             
             # split system id "<name>:<IP>"
             system_name = stream.system_id.split(":")[0]
+            ts_formated = ts.strftime('%Y-%m-%dT%H:%M:%S%Z')
             
             # create measurement for received bytes
             measurement = {
@@ -68,7 +69,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts.strftime('%Y-%m-%dT%H:%M:%S%Z'),
+                "time": ts_formated,
                 "fields": {
                     "value": interface_info.ingress_stats.if_octets
                 }
@@ -82,7 +83,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts.strftime('%Y-%m-%dT%H:%M:%S%Z'),
+                "time": ts_formated,
                 "fields": {
                     "value": interface_info.egress_stats.if_octets
                 }
@@ -102,7 +103,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts.strftime('%Y-%m-%dT%H:%M:%S%Z'),
+                "time": ts_formated,
                 "fields": {
                     "value": tail_drop
                 }
@@ -115,7 +116,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts.strftime('%Y-%m-%dT%H:%M:%S%Z'),
+                "time": ts_formated,
                 "fields": {
                     "value": red_drop
                 }
