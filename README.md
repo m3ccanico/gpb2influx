@@ -8,6 +8,23 @@ Receives JunOS analytics data (interface statistic encoded in Google Protocol Bu
 pip3 install influxdb protobuf
 ```
 
+## Install the script as a service
+
+```bash
+cp gpb2influx.py /usr/local/sbin/
+cp logical_port_pb2.py /usr/local/sbin/
+cp telemetry_top_pb2.py /usr/local/sbin/
+cp gpb2influx.service /lib/systemd/system/
+systemctl daemon-reload
+systemctl enable gpb2influx.py
+```
+
+Check status of service
+
+```bash
+systemctl status gpb2influx.service
+```
+
 ## Create protocol buffer parsers
 
 Download the Google Protocol Buffer (GPB) specification (i.e. `.proto` files) for the JunOS device from Juniper: https://www.juniper.net/support/downloads/. It appears that not all devices have corresponding GPB specificatio files (Juniper calls them *JUNOS Telemetry Interface Data Model Files*). I've used the ones from the [MX204](https://www.juniper.net/support/downloads/?p=mx204).
