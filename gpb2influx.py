@@ -14,28 +14,27 @@ import pprint
 pp = pprint.PrettyPrinter(indent=4)
 
 INFLUX_DB_PORT = 8086
-INFLUX_DB_IP = '172.31.40.72'
-INFLUX_DB_NAME = 'throughput'
+INFLUX_DB_IP = "172.31.40.72"
+INFLUX_DB_NAME = "throughput"
 ANALYTICS_PORT = 50001
 
-localtz = pytz.timezone('Pacific/Auckland')
+localtz = pytz.timezone("Pacific/Auckland")
 
 
 def main():
     # connect to DB
     influx = InfluxDBClient(INFLUX_DB_IP, INFLUX_DB_PORT,
-                            '', '', INFLUX_DB_NAME)
+                            "", "", INFLUX_DB_NAME)
     server(influx)
 
 
 def server(influx):
     # create UDP socket
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    sock.bind(('0.0.0.0', ANALYTICS_PORT))
+    sock.bind(("0.0.0.0", ANALYTICS_PORT))
 
     while True:
-        data, addr = sock.recvfrom(32000)
-        start_time = time.time()
+        data = sock.recv(32000)
 
         # create TelemetryStream object and parse data
         stream = telemetry_top_pb2.TelemetryStream()
@@ -59,7 +58,7 @@ def server(influx):
 
             # split system id "<name>:<IP>"
             system_name = stream.system_id.split(":")[0]
-            ts_formated = ts.strftime('%Y-%m-%dT%H:%M:%S%Z')
+            ts_formated = ts.strftime("%Y-%m-%dT%H:%M:%S%Z")
 
             # create measurement for received bytes
             measurement = {
@@ -126,7 +125,7 @@ def server(influx):
         influx.write_points(measurements)
         measurements = []
 
-    conn.close()
+    sock.close()
 
 
 if __name__ == "__main__":
