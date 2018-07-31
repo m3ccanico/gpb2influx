@@ -1,3 +1,2 @@
 influxdb
 protobuf
-pytz

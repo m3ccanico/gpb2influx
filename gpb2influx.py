@@ -4,7 +4,6 @@ import logical_port_pb2
 import telemetry_top_pb2
 import socket
 import time
-import pytz
 
 from influxdb import InfluxDBClient
 
@@ -17,8 +16,6 @@ INFLUX_DB_PORT = 8086
 INFLUX_DB_IP = "172.31.40.72"
 INFLUX_DB_NAME = "throughput"
 ANALYTICS_PORT = 50001
-
-localtz = pytz.timezone("Pacific/Auckland")
 
 
 def main():
@@ -40,10 +37,6 @@ def server(influx):
         stream = telemetry_top_pb2.TelemetryStream()
         stream.ParseFromString(data)
 
-        # convert timestamp into a timezone aware timestamp
-        ts = datetime.fromtimestamp(stream.timestamp/1000.0)
-        ts = localtz.localize(ts)
-
         measurements = []
 
         # convert extension into JuniperNetworks object
@@ -58,7 +51,6 @@ def server(influx):
 
             # split system id "<name>:<IP>"
             system_name = stream.system_id.split(":")[0]
-            ts_formated = ts.strftime("%Y-%m-%dT%H:%M:%S%Z")
 
             # create measurement for received bytes
             measurement = {
@@ -67,7 +59,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts_formated,
+                "time": stream.timestamp,
                 "fields": {
                     "value": interface_info.ingress_stats.if_octets
                 }
@@ -81,7 +73,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts_formated,
+                "time": stream.timestamp,
                 "fields": {
                     "value": interface_info.egress_stats.if_octets
                 }
@@ -101,7 +93,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts_formated,
+                "time": stream.timestamp,
                 "fields": {
                     "value": tail_drop
                 }
@@ -114,7 +106,7 @@ def server(influx):
                     "host": system_name,
                     "interface": interface_info.if_name,
                 },
-                "time": ts_formated,
+                "time": stream.timestamp,
                 "fields": {
                     "value": red_drop
                 }
@@ -122,7 +114,7 @@ def server(influx):
             measurements.append(measurement)
 
         # write to DB and reset buffer
-        influx.write_points(measurements)
+        influx.write_points(measurements, time_precision='ms')
         measurements = []
 
     sock.close()
